@@ -17,24 +17,18 @@
         android:layout_height="200dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/sandwich_picture_content_description"
-        android:scaleType="centerCrop" />
-
-    <TextView
-        android:id="@+id/main_Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:textSize="20sp"/>
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp"/>
 
     <LinearLayout
+        android:id="@+id/also_known_as_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="8dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp">
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -54,12 +48,14 @@
 
 
     <LinearLayout
+        android:id="@+id/origin_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="8dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp">
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -79,13 +75,15 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/description_hard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/detail_description_label"
         android:textStyle="bold"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp" />
 
     <TextView
         android:id="@+id/description_tv"
@@ -93,16 +91,19 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp" />
 
     <TextView
+        android:id="@+id/ingredients_hard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/detail_ingredients_label"
+        android:textStyle="bold"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="8dp"
-        android:text="@string/detail_ingredients_label"
-        android:textStyle="bold" />
+        android:layout_marginBottom="4dp" />
 
     <TextView
         android:id="@+id/ingredients_tv"
@@ -110,7 +111,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp" />
 
     </LinearLayout>
 
