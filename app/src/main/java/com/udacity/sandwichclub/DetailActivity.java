@@ -81,9 +81,6 @@ public class DetailActivity extends AppCompatActivity {
 
         int alsoKnownAsSize = sandwich.getAlsoKnownAs().size();
         if (alsoKnownAsSize == 0) {
-            //TextView alsoKnownAsHardText = (TextView) findViewById(R.id.also_known_as_hard);
-            //alsoKnownAsHardText.setVisibility(View.GONE);
-            //alsoKnowAsTextView.setVisibility(View.GONE);
             LinearLayout alsoKownAsLayout = (LinearLayout) findViewById(R.id.also_known_as_layout);
             alsoKownAsLayout.setVisibility(View.GONE);
         } else {
@@ -95,9 +92,6 @@ public class DetailActivity extends AppCompatActivity {
         }
 
         if (sandwich.getPlaceOfOrigin().equals("")) {
-            //TextView placeOfOriginHard = (TextView) findViewById(R.id.origin_hard);
-            //placeOfOriginHard.setVisibility(View.GONE);
-            //placeOfOriginTextView.setVisibility(View.GONE);
             LinearLayout originLayout = (LinearLayout) findViewById(R.id.origin_layout);
             originLayout.setVisibility(View.GONE);
         } else {
