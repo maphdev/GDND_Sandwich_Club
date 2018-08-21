@@ -2,7 +2,7 @@
 
 First project of Udacity's Android Nanodegree.
 
-Sandwich Club is an app that provides a list of sandwich and some details about them, such as a short description or the ingredients list.
+Sandwich Club is an app that provides a list of sandwiches and some details about them, such as a short description or the ingredients list.
 
 ## Instructions
 
